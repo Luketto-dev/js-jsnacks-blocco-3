@@ -14,21 +14,19 @@ for (let i = 0; i < invitati.length; i++) {
     if (nomeUtente === invitati[i]) {
         canPartecipate = true
     }
-
-    if (canPartecipate) {
-        console.log("puoi partecipare")
-    }else{
-        console.log("non puoi partecipare")
-    }
     
-}*/
+}
 
+if (canPartecipate) {
+    console.log("puoi partecipare")
+}else{
+    console.log("non puoi partecipare")
+}
+*/
 
 let i = 0
 
-
-
-while (i < invitati.length) {
+while ((i < invitati.length) && (!canPartecipate) ) {
     
     let invitato = invitati[i]
 
